@@ -1,0 +1,12 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: tech-zookeeper-native
+
+zookeeper:
+  host: localhost
+  port: 2181
+  session-timeout: 30000
+  connection-timeout: 10000

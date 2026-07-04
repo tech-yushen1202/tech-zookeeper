@@ -3,36 +3,41 @@ target/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
-*.iws
+*.log
+*.tmp
+*.bak
+
+.DS_Store
+Thumbs.db
+
+.idea/
+.vscode/
 *.iml
 *.ipr
+*.iws
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
+*.class
+
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+*.swp
+*.swo
+
 .project
-.settings
-.springBeans
-.sts4-cache
+.classpath
+.settings/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+spring-shell.log
 
-### VS Code ###
-.vscode/
+run.sh
+run.bat
+start.sh
+start.bat
 
-### Mac OS ###
-.DS_Store
+*.sql.bak
+*.sql.tmp

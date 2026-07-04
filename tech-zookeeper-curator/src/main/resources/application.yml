@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: tech-zookeeper-curator
+
+zookeeper:
+  host: localhost
+  port: 2181
+  session-timeout: 30000
+  connection-timeout: 10000
